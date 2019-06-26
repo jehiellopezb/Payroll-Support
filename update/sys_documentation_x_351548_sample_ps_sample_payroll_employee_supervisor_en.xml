@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="employee_supervisor" label="Employee Supervisor" language="en" table="x_351548_sample_ps_sample_payroll">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>employee_supervisor</element>
+            <help/>
+            <hint/>
+            <label>Employee Supervisor</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_payroll</name>
+            <plural>Employee Supervisors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:13:09</sys_created_on>
+            <sys_id>ca63e4a8dbe1330000b4a565ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employee Supervisor</sys_name>
+            <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+            <sys_update_name>sys_documentation_x_351548_sample_ps_sample_payroll_employee_supervisor_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:13:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

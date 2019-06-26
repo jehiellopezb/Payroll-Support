@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Sample Pay Inquiries Catalog">b0dfa8a0db25330000b4a565ca961940</catalog_item>
+        <catalog_variable>IO:45df64e0db25330000b4a565ca9619ad</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-31 15:13:00</sys_created_on>
+        <sys_id>d8f4a73cdbf9330000b4a565ca961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee</sys_name>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d8f4a73cdbf9330000b4a565ca961929</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-31 15:13:00</sys_updated_on>
+        <table/>
+        <ui_policy display_value="PI Read Only Employee opening this ticket">7ae4273cdbf9330000b4a565ca9619da</ui_policy>
+        <variable>employee</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

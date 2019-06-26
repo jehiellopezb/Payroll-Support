@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Country">09df64e0db25330000b4a565ca9619d1</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-25 14:54:10</sys_created_on>
+        <sys_id>07105c4ddb52330000b4a565ca96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>United States of America	</sys_name>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>question_choice_07105c4ddb52330000b4a565ca96196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:54:10</sys_updated_on>
+        <text>United States of America	</text>
+        <value>usa</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=07105c4ddb52330000b4a565ca96196a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>07105c4ddb52330000b4a565ca96196a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-25 14:54:10</sys_created_on>
+        <sys_id>0e60dc4ddb52330000b4a565ca9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:54:10</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>07105c4ddb52330000b4a565ca96196a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-25 14:54:10</sys_created_on>
+        <sys_id>c260dc4ddb52330000b4a565ca9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-25 14:54:10</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

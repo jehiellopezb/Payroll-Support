@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sample_pay_inquiries" table="x_351548_sample_ps_sample_pay_inquiries" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_pay_inquiries</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payroll Dispute</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_pay_inquiries</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:26:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef76e42cdbe1330000b4a565ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:26:37</sys_updated_on>
+            <value>payroll dispute</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_pay_inquiries</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Direct Deposit Issues</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_pay_inquiries</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:26:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef76e42cdbe1330000b4a565ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:26:37</sys_updated_on>
+            <value>direct deposit issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_pay_inquiries</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lost Pay Checkj</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_pay_inquiries</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:26:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f76e42cdbe1330000b4a565ca9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:26:37</sys_updated_on>
+            <value>lost pay checkj</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_pay_inquiries</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bonus Payments</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_pay_inquiries</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:26:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b76e42cdbe1330000b4a565ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:26:37</sys_updated_on>
+            <value>bonus payments</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_pay_inquiries</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>W2 Issues</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_pay_inquiries</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:26:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a776e42cdbe1330000b4a565ca9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:26:37</sys_updated_on>
+            <value>w2 issues</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sample_pay_inquiries</element>
+            <name>x_351548_sample_ps_sample_pay_inquiries</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:26:37</sys_created_on>
+            <sys_id>ab76e42cdbe1330000b4a565ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sample_pay_inquiries</sys_name>
+            <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+            <sys_update_name>sys_choice_x_351548_sample_ps_sample_pay_inquiries_sample_pay_inquiries</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:26:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

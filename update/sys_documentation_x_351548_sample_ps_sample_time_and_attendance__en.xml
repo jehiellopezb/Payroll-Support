@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Sample Time and Attendance" language="en" table="x_351548_sample_ps_sample_time_and_attendance">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Sample Time and Attendance</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_time_and_attendance</name>
+            <plural>Sample Time and Attendances</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 20:27:18</sys_created_on>
+            <sys_id>95a6682cdbe1330000b4a565ca9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sample Time and Attendance</sys_name>
+            <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+            <sys_update_name>sys_documentation_x_351548_sample_ps_sample_time_and_attendance__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 20:27:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>country</field>
+        <global>true</global>
+        <messages/>
+        <name>Additional Choices for USA</name>
+        <order/>
+        <script><![CDATA[function onLoad(control, oldValue, newValue, isLoading) {
+	
+   if (g_form.getValue("country") == "usa") {
+		g_form.addOption('sample_general_questions' , 'Pay Cards' , 'Pay Cards');
+		g_form.addOption('sample_general_questions' , 'W2 login and Reissue' , 'W2 login and Reissue');
+		g_form.addOption('sample_general_questions' , 'PayActiv' ,'PayActiv');
+	}
+	else {
+		g_form.removeOption('sample_general_questions' , 'Pay Cards' , 'Pay Cards');
+		g_form.removeOption('sample_general_questions' , 'W2 login and Reissue' , 'W2 login and Reissue');
+		g_form.removeOption('sample_general_questions' , 'PayActiv' ,'PayActiv');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-25 16:06:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aad0e089db92330000b4a565ca9619f8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Additional Choices for USA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>sys_script_client_aad0e089db92330000b4a565ca9619f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-25 16:57:44</sys_updated_on>
+        <table>x_351548_sample_ps_sample_general_questions</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

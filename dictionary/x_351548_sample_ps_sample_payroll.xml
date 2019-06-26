@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Sample Payroll" max_length="40" name="x_351548_sample_ps_sample_payroll" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Employee ID" max_length="32" name="employee_id" type="string"/>
+        <element label="Employee Supervisor" mandatory="true" max_length="32" name="employee_supervisor" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="How is the employee impacted?" max_length="40" name="how_is_the_employee_impacted" type="string">
+            <choice/>
+        </element>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Pay date impacted" max_length="40" name="pay_date_impacted" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Phone Number" max_length="40" name="phone_number" reference="sys_phone_format" type="string"/>
+        <element label="What is the full description of the request?" max_length="40" name="what_is_the_full_description_of_the_request" read_only="true" type="string"/>
+    </element>
+</database>

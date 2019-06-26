@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_351548_sample_ps_sample_payroll" label="Sample General Questions" max_length="40" name="x_351548_sample_ps_sample_general_questions" sizeclass="56" type="collection">
+        <element choice="1" label="Country" max_length="32" name="country" read_only="true" type="choice">
+            <choice>
+                <element label="Bulgaria" value="bulg"/>
+                <element label="Canada" value="can"/>
+                <element label="China" value="chn"/>
+                <element label="Dominican Republic" value="domr"/>
+                <element label="Guatemala" value="gua"/>
+                <element label="Honduras" value="hond"/>
+                <element label="India" value="ind"/>
+                <element label="Jamaica" value="jam"/>
+                <element label="Japan" value="jpn"/>
+                <element label="Mexico" value="mex"/>
+                <element label="Panama" value="pan"/>
+                <element label="Philippines" value="phl"/>
+                <element label="United States of America" value="usa"/>
+                <element label="Uruguay" value="uru"/>
+            </choice>
+        </element>
+        <element dependent="employee_location" dependent_on_field="employee_location" label="Employee Location" max_length="32" name="employee_location" read_only="true" reference="cmn_location" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="Sample General Questions" max_length="40" name="sample_general_questions" read_only="true" type="string">
+            <choice>
+                <element label="Access to Pay Statement" sequence="0" value="access to pay statement"/>
+                <element label="Garnishment Inquiries" sequence="2" value="garnishment inquiries"/>
+                <element label="Updates to Payment Methods" sequence="4" value="updates to payment methods"/>
+            </choice>
+        </element>
+        <element label="Email Address" max_length="32" name="u_email_address" read_only="true" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_351548_sample_ps_sample_payroll" label="Sample Pay Inquiries" max_length="40" name="x_351548_sample_ps_sample_pay_inquiries" sizeclass="6" type="collection">
+        <element label="Country" max_length="32" name="country" read_only="true" reference="x_351548_sample_ps_sample_countries" type="reference"/>
+        <element label="Employee Location" max_length="32" name="employee_location" read_only="true" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Sample Pay Inquiries" max_length="40" name="sample_pay_inquiries" read_only="true" type="string">
+            <choice>
+                <element label="Payroll Dispute" sequence="0" value="payroll dispute"/>
+                <element label="Direct Deposit Issues" sequence="1" value="direct deposit issues"/>
+                <element label="Lost Pay Checkj" sequence="2" value="lost pay checkj"/>
+                <element label="Bonus Payments" sequence="3" value="bonus payments"/>
+                <element label="W2 Issues" sequence="4" value="w2 issues"/>
+            </choice>
+        </element>
+        <element label="Email Address" max_length="32" name="u_email_address" read_only="true" type="string"/>
+    </element>
+</database>

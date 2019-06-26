@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_351548_sample_ps_sample_payroll" label="Sample Time and Attendance" max_length="40" name="x_351548_sample_ps_sample_time_and_attendance" sizeclass="3" type="collection">
+        <element label="Country" max_length="32" name="country" read_only="true" reference="core_country" type="reference"/>
+        <element label="Employee Location" max_length="32" name="employee_location" read_only="true" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Sample Non Worked Time" max_length="40" name="sample_non_worked_time" read_only="true" type="string">
+            <choice>
+                <element label="PTO" sequence="0" value="pto"/>
+                <element label="Jury" sequence="1" value="jury"/>
+                <element label="Military Leave" sequence="2" value="military leave"/>
+                <element label="Bereavement" sequence="3" value="bereavement"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sample Time and Attandance" max_length="40" name="sample_time_and_attandance" read_only="true" type="string">
+            <choice>
+                <element label="Non Worked Time" sequence="0" value="non worked time"/>
+                <element label="Worked Time" sequence="1" value="worked time"/>
+            </choice>
+        </element>
+    </element>
+</database>

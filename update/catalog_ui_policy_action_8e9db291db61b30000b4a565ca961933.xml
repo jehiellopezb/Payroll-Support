@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Sample Pay Inquiries Catalog">b0dfa8a0db25330000b4a565ca961940</catalog_item>
+        <catalog_variable>IO:05df64e0db25330000b4a565ca9619ef</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 15:22:32</sys_created_on>
+        <sys_id>8e9db291db61b30000b4a565ca961933</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8e9db291db61b30000b4a565ca961933</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 16:52:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make Priority field Read Only">a12dba51db61b30000b4a565ca9619c0</ui_policy>
+        <variable>priority</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

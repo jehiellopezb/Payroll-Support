@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Sample Pay Inquiries Catalog">b0dfa8a0db25330000b4a565ca961940</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-17 21:07:24</sys_created_on>
+        <sys_id>30df64e0db25330000b4a565ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Sample Pay Inquiries Catalog</sys_name>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>sc_cat_item_category_30df64e0db25330000b4a565ca96197f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-17 21:07:24</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

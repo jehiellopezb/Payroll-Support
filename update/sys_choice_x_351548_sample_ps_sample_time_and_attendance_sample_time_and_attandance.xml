@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sample_time_and_attandance" table="x_351548_sample_ps_sample_time_and_attendance" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_time_and_attandance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non Worked Time</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_time_and_attendance</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 21:31:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0345b8a4db25330000b4a565ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 21:31:19</sys_updated_on>
+            <value>non worked time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_time_and_attandance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Worked Time</label>
+            <language>en</language>
+            <name>x_351548_sample_ps_sample_time_and_attendance</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 21:31:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0345b8a4db25330000b4a565ca96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 21:31:19</sys_updated_on>
+            <value>worked time</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sample_time_and_attandance</element>
+            <name>x_351548_sample_ps_sample_time_and_attendance</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-17 21:31:19</sys_created_on>
+            <sys_id>cb45b8a4db25330000b4a565ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sample_time_and_attandance</sys_name>
+            <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+            <sys_update_name>sys_choice_x_351548_sample_ps_sample_time_and_attendance_sample_time_and_attandance</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-17 21:31:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

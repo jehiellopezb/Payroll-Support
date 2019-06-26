@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>opened_by</field>
+        <global>true</global>
+        <messages/>
+        <name>GQ Auto Populate Form fields</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+     if (isLoading || newValue == '') {   
+           return;   
+     }
+	
+		var caller = g_form.getReference('opened_by', doAlert); 
+	
+		function doAlert(caller) { 
+			g_form.setValue('employee_id', caller.employee_number);   
+			g_form.setValue('phone_number', caller.mobile_phone);   
+			g_form.setValue('employee_location', caller.location);   
+			g_form.setValue('employee_supervisor', caller.manager);
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-11 14:50:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>777840acdb02330000b4a565ca9619b5</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>GQ Auto Populate Form fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>sys_script_client_777840acdb02330000b4a565ca9619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-25 19:39:52</sys_updated_on>
+        <table>x_351548_sample_ps_sample_general_questions</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

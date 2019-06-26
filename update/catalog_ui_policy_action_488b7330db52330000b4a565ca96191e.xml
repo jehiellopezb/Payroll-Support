@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Sample General Question Catalog">f4bdac20db25330000b4a565ca96195b</catalog_item>
+        <catalog_variable>IO:f8bd6c60db25330000b4a565ca9619b2</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-25 13:23:07</sys_created_on>
+        <sys_id>488b7330db52330000b4a565ca96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample_general_questions</sys_name>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_488b7330db52330000b4a565ca96191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-25 13:23:07</sys_updated_on>
+        <table/>
+        <ui_policy display_value="test ">c24bbffcdb12330000b4a565ca9619db</ui_policy>
+        <variable>sample_general_questions</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

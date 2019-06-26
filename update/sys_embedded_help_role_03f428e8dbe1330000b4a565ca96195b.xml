@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_351548_sample_ps.sample_pay_inquiries_user" name="x_351548_sample_ps.sample_pay_inquiries_user">83f428e8dbe1330000b4a565ca961959</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-17 20:20:02</sys_created_on>
+        <sys_id>03f428e8dbe1330000b4a565ca96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>83f428e8dbe1330000b4a565ca961959</sys_name>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_03f428e8dbe1330000b4a565ca96195b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-17 20:20:02</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

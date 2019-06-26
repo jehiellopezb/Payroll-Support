@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Sample Pay Inquiries Catalog">b0dfa8a0db25330000b4a565ca961940</catalog_item>
+        <catalog_variable>IO:b0df64e0db25330000b4a565ca961986</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-31 16:20:52</sys_created_on>
+        <sys_id>5474b734db3d330000b4a565ca961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened_by</sys_name>
+        <sys_package display_value="Sample Payroll Support" source="x_351548_sample_ps">0b791c60dbe1330000b4a565ca96191d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Payroll Support">0b791c60dbe1330000b4a565ca96191d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5474b734db3d330000b4a565ca961971</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-31 16:20:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If logged in user is Approving Manager or Supervisor &quot;Open on behalf this user&quot; will be editable">8885af3cdbf9330000b4a565ca96195d</ui_policy>
+        <variable>opened_by</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>
